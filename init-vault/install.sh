@@ -1,11 +1,11 @@
 #!/bin/bash
 # Установка скилла init-vault для Claude Code
-# Использование: curl -sL https://raw.githubusercontent.com/Gumar12/Skills/master/init-vault/install.sh | bash
+# Использование: curl -sL https://raw.githubusercontent.com/Gumar12/Skills/main/init-vault/install.sh | bash
 
 set -e
 
 SKILL_DIR=".claude/skills/init-vault"
-REPO_URL="https://raw.githubusercontent.com/Gumar12/Skills/master/init-vault"
+REPO_URL="https://raw.githubusercontent.com/Gumar12/Skills/main/init-vault"
 
 echo "Устанавливаю скилл init-vault..."
 

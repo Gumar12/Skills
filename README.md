@@ -22,12 +22,17 @@
 
 ### Установка
 
-```bash
-curl -sL https://raw.githubusercontent.com/Gumar12/Skills/master/init-vault/install.sh | bash
+**Windows (PowerShell):**
+```powershell
+irm https://raw.githubusercontent.com/Gumar12/Skills/main/init-vault/install.ps1 | iex
 ```
 
-Или вручную:
+**macOS / Linux:**
+```bash
+curl -sL https://raw.githubusercontent.com/Gumar12/Skills/main/init-vault/install.sh | bash
+```
 
+**Вручную:**
 ```bash
 git clone https://github.com/Gumar12/Skills.git /tmp/skills
 mkdir -p .claude/skills
